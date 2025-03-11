@@ -2,6 +2,9 @@
 
 ![pixi.js logo](https://pixijs.download/pixijs-banner-no-version.png?v=1)
 
+## Description
+This is a simple template/boilerplate for implementing a slot game using TypeScript 5.7 , Pixi 7.3 and GSAP 3.12.
+
 ## How it works
 1. install Node.JS 22 (or later)
 2. clone this repo
