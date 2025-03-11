@@ -30,6 +30,6 @@ This is a simple template/boilerplate for implementing a slot game using TypeScr
 - `npm run setup` - install all npm libraries/dependencies
 - `npm run clean-setup` - remove the node_modules-folder (if available) & install all npm libraries/dependencies
 - `npm run build` - starts build procedure
-- `npm run start` - start watching for files and open's server on localhost:8080
+- `npm run start` - start watching for files and open's server on localhost:8081
 - `npm run lint` - generate code coverage report
 
