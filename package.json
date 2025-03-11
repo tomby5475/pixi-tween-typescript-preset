@@ -1,7 +1,7 @@
 {
-    "name": "pixi-boilerplate",
+    "name": "pixi-tween-typescript-preset",
     "version": "1.0.0",
-    "description": "pixi.js boilerplate",
+    "description": "This is a simple template/boilerplate for implementing a slot game using TypeScript 5.7 , Pixi 7.3 and GSAP 3.12.",
     "engines": {
         "node": ">=20"
     },
