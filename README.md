@@ -14,6 +14,9 @@
 ### Screenshot
 ![screenshot of application](./assets/screenshot_game.jpg)
 
+### Possible symbol-assets
+![Ten](./assets/T.png)![J](./assets/J.png)![Q](./assets/Q.png)![K](./assets/K.png)![A](./assets/A.png)![P](./assets/P.png)
+
 ## Documentations
 - TypeScript https://www.typescriptlang.org/docs/
 - PIXIJS - https://pixijs.download/v7.x/docs/index.html
