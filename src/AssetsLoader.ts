@@ -14,6 +14,10 @@ export class AssetsLoader
                             srcs: "./assets/background_normalgame.jpg"
                         },
                         {
+                            name: "spinButton",
+                            srcs: "./assets/spin_button.png"
+                        },
+                        {
                             name: "T",
                             srcs: "./assets/T.png"
                         },

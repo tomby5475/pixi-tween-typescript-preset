@@ -29,11 +29,24 @@ export class Game
         const background = Sprite.from("background_normalgame");
         app.stage.addChild(background);
 
-        //test-symbol
+        //test-symbol + tween
         const symbolA = Sprite.from("A");
+        symbolA.setTransform(135, 100);
         app.stage.addChild(symbolA);
+        gsap.to(symbolA, { y: 280, duration: 1, delay: 2 });
 
-        gsap.to(symbolA, { y: 100, duration: 1, delay: 2 });
+        //Spin-Button
+        const spinButton = Sprite.from("spinButton");
+        spinButton.setTransform(1050, 520);
+        spinButton.eventMode = 'static'; // Opt-in to interactivity
+        spinButton.cursor = 'pointer';
+        spinButton.on('pointerdown', this.onClickSpin);
+        app.stage.addChild(spinButton);
+    }
+
+    private onClickSpin()
+    {
+        alert("onClickSpin()");
     }
 
     private resizeCanvas(): void
