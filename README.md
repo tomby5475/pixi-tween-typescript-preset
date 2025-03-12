@@ -6,7 +6,7 @@
 This is a simple template/boilerplate for implementing a slot game using TypeScript 5.7 , Pixi 7.3 and GSAP 3.12.
 
 ## How it works
-1. install Node.JS 22 (or later)
+1. install Node.JS 22 (LTS)
 2. clone this repo
 3. run these scripts (defined in package.json)
    1. `npm run clean-setup`
