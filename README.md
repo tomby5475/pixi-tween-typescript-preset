@@ -37,7 +37,8 @@ This is a simple template/boilerplate for implementing a slot game using TypeScr
 # Docker as alternative
 Start in the root-directory of this repo ... the place with `Dockerfile` and `README.md`.\
 First, and needed only once, build the container in the shell (e.g. bash) - from the directory with the Dockerfile:\
-`docker build --tag 'pixi-test'`
+`docker build --tag 'pixi-test' .`\
+(Install buildx according to your OS, check: https://docs.docker.com/go/buildx/ and then execute: `docker buildx install`)
 
 Now run the container and map the container-internal port 8080 to an unused port on your localhost/127.0.0.1 (e.g. 8080, 8081, ...), and also map the directory with the git-repo into the docker-container under /home/developer:\
 `docker run -it -p <desired localhost-port>:8080 -v "$(pwd)":/home/developer pixi-test`
